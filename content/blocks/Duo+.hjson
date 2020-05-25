@@ -11,21 +11,21 @@ rotatespeed: 30
 ammo: {
   copper: {
     speed: 4
-    damage: 15
+    damage: 5
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 3
+    ammoMultiplier: 10
   }
   graphite: {
-    speed: 6
-    damage: 25
+    speed: 8
+    damage: 10
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 6
+    ammoMultiplier: 15
   }
 }
 requirements: [
