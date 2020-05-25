@@ -11,7 +11,7 @@ rotatespeed: 30
 ammo: {
   copper: {
     speed: 4
-    damage: 5
+    damage: 2
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
@@ -20,7 +20,7 @@ ammo: {
   }
   graphite: {
     speed: 8
-    damage: 10
+    damage: 4
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
