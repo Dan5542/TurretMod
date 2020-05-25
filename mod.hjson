@@ -1,0 +1,6 @@
+name: "Turret Mod"
+displayName: "[red]Turret[green] Mod" //what displays in the mod selection menu
+author: "Dan :D"
+description: "Adds -1- new turret"
+version: "1"
+minGameVersion: "103"

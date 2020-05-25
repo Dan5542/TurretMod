@@ -1,0 +1,36 @@
+type: DoubleTurret
+name: Duo+
+description: duo, but better
+health: 1000
+size: 2
+reload: 2
+range: 150
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 30
+ammo: {
+  copper: {
+    speed: 4
+    damage: 15
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+  }
+  graphite: {
+    speed: 6
+    damage: 25
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 6
+  }
+}
+requirements: [
+  graphite/50
+  copper/300
+]
+category: turret
+research: duo
