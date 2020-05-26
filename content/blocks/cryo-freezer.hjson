@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: "Cryo Freezer"
+description: "Freezes water into ice - uses small amounts of power and cryofluid"
+liquidCapacity: 50
+outputItem: {
+  Item: ice
+  amount: 2
+}
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.2
+  Liquid: water
+  Liquid: cryofluid
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+
+

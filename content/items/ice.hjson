@@ -1,0 +1,6 @@
+type: material
+name: Ice
+description: Crafted in a cryo-freezer from water.
+hardness: 2
+cost: 2
+color: 7EB0BA

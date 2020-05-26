@@ -1,0 +1,29 @@
+type: ArtilleryTurret
+name: Ice Turret
+description: Launches blocks of ice over a long distance
+health: 1500
+size: 2
+targetsground:True
+targetsair:False
+reload: 15
+range: 300
+ammoUseEffect: shellEjectBig
+inaccuracy: 2
+rotatespeed: 5
+ammo: {
+  ice: {
+    speed: 1
+    damage: 30
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+    shootSprite: ice
+  }
+}
+requirements: [
+  ice/30
+  lead/50
+  graphite/10
+]
+category: turret
+research: hail
