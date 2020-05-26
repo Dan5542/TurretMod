@@ -10,7 +10,6 @@ updateEffect: smeltsmoke
 consumes: {
   power: 3
   item: volcanicrock
-  amount: 5
 }
 requirements: [
   lead/50
