@@ -13,7 +13,7 @@ drillEffect: mineHuge
 heatColor: b5d772
 requirements: [
   thorium/70
-  surge/10
+  surge-alloy/10
   titanium/200
   silicon/50
 ]
