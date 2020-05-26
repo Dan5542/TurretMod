@@ -1,17 +1,22 @@
 type: GenericCrafter
-name: "Freezer"
-description: "Freezes water into ice - uses small amounts of power"
+name: "Cryo-Freezer"
+description: "Freezes water into ice - uses small amounts of power and cryofluid"
 liquidCapacity: 50
 size: 3
 hasPower: true
 hasLiquids: true
-craftTime: 10
+craftTime: 80
 updateEffect: smeltsmoke
 consumes: {
   power: 0.2
   liquid: {
     liquid: water
-    amount: 1
+    amount: 20
+    booster: false
+  }
+    liquid: {
+    liquid: cryofluid
+    amount: 0.5
     booster: false
   }
 }
