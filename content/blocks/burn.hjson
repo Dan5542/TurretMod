@@ -1,0 +1,30 @@
+type: LiquidTurret
+name: Burn
+description: Smothers enemies in burny stuff
+health: 800
+size: 2
+targetsground:True
+targetsair:True
+reload: 2
+range: 200
+ammoUseEffect: shellEjectBig
+inaccuracy: 8
+rotatespeed: 10
+ammo: {
+  lava: {
+    type: LiquidBulletType
+    incendAmount: 10
+    incendChance: 100
+    incendSpread: 5
+    splashDamage: 20
+    splashDamageRadius: 2
+    damage: 50
+}
+requirements: [
+  volcanic-rock/50
+  lead/50
+  graphite/50
+  copper/35
+]
+category: turret
+research: wave
