@@ -14,7 +14,7 @@ consumes: {
     amount: 20
     booster: false
   }
-    liquid: {
+  {
     liquid: cryofluid
     amount: 0.5
     booster: false
