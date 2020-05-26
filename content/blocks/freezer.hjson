@@ -2,10 +2,6 @@ type: GenericCrafter
 name: "Freezer"
 description: "Freezes water into ice - uses small amounts of power"
 liquidCapacity: 50
-outputItem: {
-  Item: ice
-  amount: 2
-}
 size: 3
 hasPower: true
 hasLiquids: true
@@ -28,5 +24,6 @@ category: crafting
 research: kiln
 idleSound: respawning
 idleSoundVolume: 0.5
+outputItem: ice/2
 
 
