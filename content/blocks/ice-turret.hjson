@@ -5,19 +5,21 @@ health: 1500
 size: 2
 targetsground:True
 targetsair:False
-reload: 15
+reload: 200
 range: 300
 ammoUseEffect: shellEjectBig
 inaccuracy: 2
 rotatespeed: 5
 ammo: {
   ice: {
-    speed: 1
-    damage: 30
+    speed: 3
+    damage: 50
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
     shootSprite: ice
+    bulletWidth = 10
+    bulletheight = 10
   }
 }
 requirements: [
