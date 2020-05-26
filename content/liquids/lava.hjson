@@ -1,3 +1,4 @@
+type: Liquid
 name: Lava
 description: Hot! Hot! Hot!
 temperature: 0.9
