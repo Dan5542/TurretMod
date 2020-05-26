@@ -19,7 +19,7 @@ ammo: {
     ammoMultiplier: 5
     shootSprite: ice
     bulletWidth = 10
-    bulletheight = 10
+    bulletHeight = 10
   }
 }
 requirements: [
