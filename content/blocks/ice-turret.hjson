@@ -14,6 +14,8 @@ ammo: {
   ice: {
     speed: 3
     damage: 130
+    bulletWidth: 15
+    bulletHeight: 15
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
