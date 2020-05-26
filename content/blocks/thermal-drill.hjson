@@ -11,6 +11,14 @@ drawMineItem: true
 updateEffect: pulverizeRed
 drillEffect: mineHuge
 heatColor: b5d772
+consumes: {
+  power: 50
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+    booster: true
+  }
+}
 requirements: [
   thorium/70
   surge-alloy/10
