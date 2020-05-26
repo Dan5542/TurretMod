@@ -21,7 +21,7 @@ research: melter
 idleSound: respawning
 idleSoundVolume: 0.5
 outputLiquid: {
-liquid: lava
+liquid: Lava
 amount: 0.1
 }
 
