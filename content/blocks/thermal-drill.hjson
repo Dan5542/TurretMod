@@ -16,7 +16,7 @@ consumes: {
 	}
 }
 requirements: [
-volcanicrock/30
+volcanic-rock/30
 ice/30
 surge-alloy/30
 ]
