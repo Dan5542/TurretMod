@@ -1,6 +1,7 @@
 name: Thermal Drill
 description: The ultimate drill
 type: Drill
+size: 4
 category: production
 drillTime: 400
 hasPower: True
