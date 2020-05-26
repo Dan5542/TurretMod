@@ -1,6 +1,6 @@
 type: GenericSmelter
 name: "Cryo-Freezer"
-description: "Freezes water into ice - uses small amounts of power and cryofluid"
+description: "Freezes water into ice - uses small amounts of power"
 liquidCapacity: 50
 size: 3
 hasPower: true
@@ -14,10 +14,10 @@ consumes: {
     amount: 20
     booster: false
   }
-  {
+  liquid: {
     liquid: cryofluid
-    amount: 0.5
-    booster: false
+    amount: 20
+    booster: true
   }
 }
 requirements: [
