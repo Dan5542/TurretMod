@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: "Geothermal Melter"
+description: "Uses the heat gathered from the center of the earth to melt volcanic rock into lava"
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+craftTime: 80
+updateEffect: smeltsmoke
+consumes: {
+  power: 3
+  item: volcanicrock
+  amount: 5
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/20
+]
+category: crafting
+research: melter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: {
+liquid: lava
+amount: 0.1
+}
+
+
