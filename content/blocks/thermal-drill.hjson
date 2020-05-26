@@ -10,7 +10,6 @@ consumes: {
     liquid: cryofluid
     amount: 0.5
     booster: true
-    optional: true
   }
 }
 requirements: [
