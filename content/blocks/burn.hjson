@@ -19,6 +19,7 @@ ammo: {
     splashDamage: 20
     splashDamageRadius: 2
     damage: 50
+  }
 }
 requirements: [
   volcanic-rock/50
