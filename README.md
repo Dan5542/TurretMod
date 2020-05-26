@@ -3,4 +3,4 @@ This is a mod that contains lots of different things, but its main focus is turr
 
 ## Features
 
-Mod currently includes 2 turrets, 1 factory and 1 item.
+Mod currently includes 3 turrets, 2 factories, 1 drill and 2 items.
