@@ -3,6 +3,10 @@ name: "Geothermal Melter"
 description: "Uses the heat gathered from the center of the earth to melt volcanic rock into lava"
 liquidCapacity: 50
 size: 2
+outputLiquid: {
+  liquid: Lava
+  amount: 0.1
+}
 hasPower: true
 hasLiquids: true
 craftTime: 80
@@ -20,9 +24,6 @@ category: crafting
 research: melter
 idleSound: respawning
 idleSoundVolume: 0.5
-outputLiquid: {
-liquid: Lava
-amount: 0.1
-}
+
 
 
