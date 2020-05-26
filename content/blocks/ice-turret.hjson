@@ -18,8 +18,6 @@ ammo: {
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
     shootSprite: ice
-    bulletWidth = 10
-    bulletHeight = 10
   }
 }
 requirements: [
