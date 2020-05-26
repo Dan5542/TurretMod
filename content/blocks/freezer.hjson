@@ -13,7 +13,11 @@ craftTime: 10
 updateEffect: smeltsmoke
 consumes: {
   power: 0.2
-  liquid: water
+  liquid: {
+    liquid: water
+    amount: 1
+    booster: false
+  }
 }
 requirements: [
   lead/50
