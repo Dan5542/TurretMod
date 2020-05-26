@@ -6,13 +6,13 @@ drillTime: 400
 hasPower: True
 tier: 10
 consumes: {
-	power:1.5
-	liquid: {
-		liquid: cryofluid
-		amount: 0.5
-		booster: True
-		optional: True
-	}
+  power:1.5
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+    booster: True
+    optional: True
+  }
 }
 requirements: {
 volcanic-rock/30
