@@ -4,7 +4,7 @@ description: "Uses the heat gathered from the center of the earth to melt volcan
 liquidCapacity: 50
 size: 2
 outputLiquid: {
-  liquid: Lava
+  liquid: lava
   amount: 0.1
 }
 hasPower: true
