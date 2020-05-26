@@ -13,7 +13,7 @@ consumes: {
   }
 }
 requirements: [
-  volcanic-rock/40
+  copper/40
   ice/40
   surge-alloy/20
 ]
