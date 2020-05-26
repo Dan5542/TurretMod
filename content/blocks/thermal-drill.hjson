@@ -1,3 +1,4 @@
+name: Thermal Drill
 type: Drill
 size: 4
 update: true
@@ -12,9 +13,9 @@ updateEffect: pulverizeRed
 drillEffect: mineHuge
 heatColor: b5d772
 consumes: {
-  power: 50
+  power: 5
   liquid: {
-    liquid: cryofluid
+    liquid: water
     amount: 0.5
     booster: true
   }
