@@ -13,6 +13,7 @@ rotatespeed: 10
 ammo: {
   lava: {
     type: LiquidBulletType
+    liquid: lava
     incendAmount: 10
     incendChance: 100
     incendSpread: 5
