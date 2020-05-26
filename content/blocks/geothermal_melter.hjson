@@ -5,7 +5,7 @@ liquidCapacity: 50
 size: 2
 outputLiquid: {
   liquid: lava
-  amount: 0.1
+  amount: 5
 }
 hasPower: true
 hasLiquids: true
@@ -13,10 +13,10 @@ craftTime: 80
 updateEffect: smeltsmoke
 consumes: {
   power: 3
-  item: volcanicrock
+  item: volcanic-rock
 }
 requirements: [
-  lead/50
+  volcanic-rock/20
   copper/80
   silicon/20
 ]
