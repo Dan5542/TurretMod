@@ -1,21 +1,22 @@
 name: Thermal Drill
 description: The ultimate drill
 type: Drill
-category: production
-drillTime: 400
-hasPower: True
-tier: 10
+size: 4
+tier: 6
+drillTime: 200
 consumes: {
-  power:1.5
+  power: 5
   liquid: {
     liquid: cryofluid
     amount: 0.5
-    booster: True
-    optional: True
+    booster: true
+    optional: true
   }
 }
-requirements: {
-volcanic-rock/30
-ice/30
-surge-alloy/30
+requirements: [
+  volcanic-rock/40
+  ice/40
+  surge-alloy/20
+]
+category: production
 research: blast-drill
