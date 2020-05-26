@@ -5,7 +5,7 @@ health: 1500
 size: 2
 targetsground:True
 targetsair:False
-reload: 200
+reload: 130
 range: 300
 ammoUseEffect: shellEjectBig
 inaccuracy: 2
@@ -13,7 +13,7 @@ rotatespeed: 5
 ammo: {
   ice: {
     speed: 3
-    damage: 50
+    damage: 120
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
