@@ -18,18 +18,17 @@ ammo: {
 	slag: {
 		type: liquidBulletType
 		liquid: slag
-		knockback: 0.7
-		damage: 5
-		speed: 6
+		damage: 2
+		knockback: 0.6
 		ammoMultiplier: 2
 		status: melting
-		statusDuration: 600
+		statusDuration: 180
 	}
 	lava: {
 		type: liquidBulletType
 		liquid: lava
+		damage: 6
 		knockback: 0.6
-		damage: 8
 		ammoMultiplier: 2
 		status: melting
 		statusDuration: 180
