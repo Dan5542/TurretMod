@@ -5,14 +5,17 @@ health: 800
 size: 2
 targetsground:True
 targetsair:True
+hasLiquids: true
+liquidCapacity: 50
 reload: 2
 range: 200
 ammoUseEffect: shellEjectBig
 inaccuracy: 8
 rotatespeed: 10
 ammo: {
-  liquid: lava:{
+  lava:{
     type: LiquidBulletType
+    liquid: lava
     incendAmount: 10
     incendChance: 100
     incendSpread: 5
