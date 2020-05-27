@@ -12,9 +12,6 @@ consumes: {
     booster: false
   }
 }
-    ]
-  }
-}
 category: units
 research: wraith-factory
 requirements: [
