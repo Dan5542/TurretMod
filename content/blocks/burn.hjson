@@ -1,5 +1,5 @@
 type: liquidTurret
-size: 3
+size: 2
 health: 1980
 category: turret
 shootEffect: shootLiquid
@@ -13,9 +13,9 @@ range: 220
 inaccuracy: 7
 recoil: 0
 ammo: {
-	water: {
+	lava: {
 		type: liquidBulletType
-		liquid: water
+		liquid: lava
 		knockback: 0.7
 		damage: 1
 		speed: 6
