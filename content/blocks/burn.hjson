@@ -14,14 +14,14 @@ range: 220
 inaccuracy: 7
 recoil: 0
 ammo: {
-	slag: {
+	water: {
 		type: liquidBulletType
 		liquid: slag
 		knockback: 0.7
 		damage: 2
 		speed: 6
 		ammoMultiplier: 2
-		status: wet
+		status: melting
 		statusDuration: 600
 	}
 	lava: {
