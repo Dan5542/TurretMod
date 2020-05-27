@@ -1,3 +1,5 @@
+name: Burn
+description: covers enemies in burny stuff
 type: liquidTurret
 size: 2
 health: 1980
@@ -13,14 +15,14 @@ range: 220
 inaccuracy: 7
 recoil: 0
 ammo: {
-	water: {
+	slag: {
 		type: liquidBulletType
-		liquid: water
+		liquid: slag
 		knockback: 0.7
-		damage: 1
+		damage: 5
 		speed: 6
 		ammoMultiplier: 2
-		status: wet
+		status: melting
 		statusDuration: 600
 	}
 	lava: {
@@ -34,11 +36,8 @@ ammo: {
 	}
 }
 requirements: [
-	silicon/95
-	copper/175
-	graphite/135
-	lead/200
-	metaglass/135
+	volcanic-rock/45
+	metaglass/100
 	titanium/105
 ]
 research: wave
