@@ -1,4 +1,4 @@
-type: LiquidTurret
+type: ItemTurret
 name: Burn
 description: Smothers enemies in burny stuff
 health: 800
@@ -13,9 +13,9 @@ ammoUseEffect: shellEjectBig
 inaccuracy: 8
 rotatespeed: 10
 ammo: {
-  lava:{
-    type: LiquidBulletType
-    liquid: lava
+  copper:{
+    type: ArtilleryBulletType
+    item: copper
     incendAmount: 10
     incendChance: 100
     incendSpread: 5
