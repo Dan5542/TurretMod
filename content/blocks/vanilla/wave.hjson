@@ -1,0 +1,19 @@
+ammo: {
+	water: waterShot
+	slag: slagShot
+	cryofluid: cryoShot
+	oil: oilShot
+	lava: {
+		type: liquidBulletType
+		liquid: lava
+		knockback: 0.6
+		ammoMultiplier: 2
+		status: melting
+		statusDuration: 180
+	}
+}
+requirements: [
+	copper/70
+	lead/75
+	metaglass/45
+]
