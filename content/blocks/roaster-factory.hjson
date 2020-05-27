@@ -1,0 +1,25 @@
+name: Roaster Factory
+description: Makes Roaster units.
+type: UnitFactory
+unitType: roaster
+size: 2
+produceTime: 500
+consumes: {
+  power: 0.2
+  liquid: {
+    liquid: lava
+    amount: 0.5
+    booster: false
+  }
+}
+    ]
+  }
+}
+category: units
+research: wraith-factory
+requirements: [
+  volcanic-rock/70
+  graphite/40
+  silicon/40
+  titanium/20
+]
