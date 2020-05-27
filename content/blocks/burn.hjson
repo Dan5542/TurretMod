@@ -23,6 +23,15 @@ ammo: {
 		status: wet
 		statusDuration: 600
 	}
+	lava: {
+		type: liquidBulletType
+		liquid: lava
+		knockback: 0.6
+		damage: 8
+		ammoMultiplier: 2
+		status: melting
+		statusDuration: 180
+	}
 }
 requirements: [
 	silicon/95
