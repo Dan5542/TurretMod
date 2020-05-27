@@ -1,7 +1,7 @@
   
 type: liquidTurret
-size: 3
-health: 1980
+size: 2
+health: 800
 category: turret
 shootEffect: shootLiquid
 shootSound: splash
@@ -14,21 +14,21 @@ range: 220
 inaccuracy: 7
 recoil: 0
 ammo: {
-	water: {
+	slag: {
 		type: liquidBulletType
-		liquid: water
+		liquid: slag
 		knockback: 0.7
-		damage: 1
+		damage: 2
 		speed: 6
 		ammoMultiplier: 2
 		status: wet
 		statusDuration: 600
 	}
-	slag: {
+	lava: {
 		type: liquidBulletType
-		liquid: slag
+		liquid: lava
 		knockback: 0.6
-		damage: 4
+		damage: 6
 		speed: 6
 		ammoMultiplier: 2
 		status: melting
@@ -36,6 +36,8 @@ ammo: {
 	}
 }
 requirements: [
-	copper/1
+	volcanic-rock/35
+	metaglass/50
+	plastanium/20
 ]
 research: wave
