@@ -14,9 +14,9 @@ range: 220
 inaccuracy: 7
 recoil: 0
 ammo: {
-	lava: {
+	water: {
 		type: liquidBulletType
-		liquid: lava
+		liquid: water
 		knockback: 0.7
 		damage: 1
 		speed: 6
