@@ -13,9 +13,9 @@ ammoUseEffect: shellEjectBig
 inaccuracy: 8
 rotatespeed: 10
 ammo: {
-  lava:{
+  copper:{
     type: ArtilleryBulletType
-    item: copper
+    liquid: lava
     incendAmount: 10
     incendChance: 100
     incendSpread: 5
