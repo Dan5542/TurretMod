@@ -12,14 +12,15 @@ inaccuracy: 8
 rotatespeed: 10
 ammo: {
   lava: {
-    type: LiquidBulletType
-    liquid: lava
-    incendAmount: 10
-    incendChance: 100
-    incendSpread: 5
-    splashDamage: 20
-    splashDamageRadius: 2
-    damage: 50
+    liquid: lava:{
+      type: LiquidBulletType
+      incendAmount: 10
+      incendChance: 100
+      incendSpread: 5
+      splashDamage: 20
+      splashDamageRadius: 2
+      damage: 50
+    }
   }  
 }
 requirements: [
