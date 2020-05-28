@@ -1,4 +1,5 @@
-  
+name: Burn
+description: Smothers enemies in burny stuff
 type: liquidTurret
 size: 2
 health: 800
