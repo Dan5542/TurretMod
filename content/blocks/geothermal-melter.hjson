@@ -2,7 +2,7 @@ type: GenericSmelter
 name: "Geothermal Melter"
 description: "Uses the heat gathered from the center of the earth to melt volcanic rock into lava"
 liquidCapacity: 50
-size: 2
+size: 3
 outputLiquid: {
   liquid: lava
   amount: 5
