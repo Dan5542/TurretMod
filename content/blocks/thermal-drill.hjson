@@ -3,7 +3,7 @@ description: The ultimate drill
 type: Drill
 size: 4
 category: production
-drillTime: 400
+drillTime: 800
 hasPower: True
 tier: 10
 consumes: {
