@@ -1,20 +1,19 @@
 name: Molten Generator
-description: Heat = Power
-size: 2
+description: Heat=Power
+size: 3
 category: power
 hasPower: true
-hasItems: false
+hasItems: true
 hasLiquids: true
 liquidCapacity: 50
 itemDuration: 60
-randomlyExplode: false 
 consumes: {
 	liquid: {
 		liquid: lava
-		amount: 0.2
+		amount: 0.08333
 	}
 }
-powerProduction: 8
+powerProduction: 15
 requirements: [
 	volcanic-rock/55
 	graphite/30
