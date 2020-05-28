@@ -1,0 +1,25 @@
+name: Molten Generator
+description: Heat = Power
+size: 2
+category: power
+hasPower: true
+hasItems: false
+hasLiquids: true
+liquidCapacity: 50
+itemDuration: 60
+randomlyExplode: false 
+consumes: {
+	liquid: {
+		liquid: lava
+		amount: 0.2
+	}
+}
+powerProduction: 8
+requirements: [
+	volcanic-rock/55
+	graphite/30
+	lead/50
+	metaglass/40
+	silicon/35
+]
+research: thermal-generator
