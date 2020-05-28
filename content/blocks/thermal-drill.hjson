@@ -3,13 +3,13 @@ description: The ultimate drill
 type: Drill
 size: 4
 category: production
-drillTime: 800
+drillTime: 150
 hasPower: True
 tier: 10
 consumes: {
 	power:1.5
 	liquid: {
-		liquid: cryofluid
+		liquid: lava
 		amount: 0.5
 		booster: True
 		optional: True
