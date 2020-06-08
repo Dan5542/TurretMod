@@ -1,11 +1,11 @@
 type: groundUnit
 name: Roaster
 description: Spews lava on its enemies
-speed: 0.25
+speed: 0.1
 flying: false
 health: 200
 engineOffset: 5.5
-range: 130
+range: 50
 weapon: {
   bullet: pyraFlame
 }
