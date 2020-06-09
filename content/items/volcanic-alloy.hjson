@@ -1,0 +1,6 @@
+type: material
+name: volcanic alloy
+description: An advanced alloy that is extremely durable.
+hardness: 6
+cost: 4
+color: FA5858
