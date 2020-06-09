@@ -4,8 +4,8 @@ health: 260
 category: turret
 shootEffect: lightningShoot
 shootSound: spark
-targetAir: true
-targetGround: false
+targetAir: false
+targetGround: true
 reload: 35
 shootCone: 40
 shootType: lightning
