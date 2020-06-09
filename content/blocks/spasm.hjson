@@ -6,7 +6,7 @@ shootEffect: lightningShoot
 shootSound: spark
 targetAir: false
 targetGround: true
-reload: 200
+reload: 5
 shootCone: 40
 shootType: lightning
 range: 100
