@@ -6,11 +6,11 @@ shootEffect: lightningShoot
 shootSound: spark
 targetAir: false
 targetGround: true
-reload: 35
+reload: 200
 shootCone: 40
 shootType: lightning
-range: 90
-recoil: 1
+range: 100
+recoil: 6
 powerUse: 1.5   
 requirements: [
     copper/35
