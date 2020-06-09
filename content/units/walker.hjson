@@ -1,0 +1,18 @@
+name: Walker
+type: GroundUnit
+description: An upgraded version of the Crawler unit.
+health: 300
+speed: 0.47
+mass: 3
+weapon: {
+bullet:
+{
+damage: 300
+ammoMultiplier: 1
+killShooter: true
+instantDisappear: true
+splashDamage: 100
+}
+shake: 2
+shootSound: boom
+}
