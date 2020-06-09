@@ -29,7 +29,7 @@ ammo: {
 		type: liquidBulletType
 		liquid: lava
 		knockback: 0.6
-		damage: 6
+		damage: 8
 		speed: 6
 		ammoMultiplier: 2
 		status: melting
@@ -37,7 +37,7 @@ ammo: {
 	}
 }
 requirements: [
-	volcanic-rock/35
+	volcanic-alloy/10
 	metaglass/50
 	plastanium/20
 ]
