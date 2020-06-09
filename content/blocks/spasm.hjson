@@ -1,22 +1,19 @@
-type: LaserTurret
-name: Spasm
-description: Annhilates enemies with a lightning spasm
-health: 3000
+type: PowerTurret
 size: 2
-targetsground:True
-targetsair:False
-reload: 2
-range: 250
-inaccuracy: 0
-rotatespeed: 3
-firingMoveFract: 1
-shootDuration: 25
-powerUse: 2.5
-shootType: damageLightning
-requirements: [
-  lead/175
-  graphite/200
-  silicon/450  
-]
+health: 260
 category: turret
+shootEffect: lightningShoot
+shootSound: spark
+targetAir: true
+targetGround: false
+reload: 35
+shootCone: 40
+shootType: lightning
+range: 90
+recoil: 1
+powerUse: 1.5   
+requirements: [
+    copper/35
+    lead/50
+]
 research: lancer
