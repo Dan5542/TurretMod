@@ -9,11 +9,11 @@ targetGround: true
 reload: 4
 shootCone: 40
 shootType: lightning
-range: 100
+range: 50
 recoil: 6
-powerUse: 600
+powerUse: 700
 requirements: [
-    silicon/350
-    graphite/350
+    silicon/500
+    graphite/500
 ]
 research: lancer
