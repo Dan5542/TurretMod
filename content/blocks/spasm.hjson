@@ -11,7 +11,7 @@ shootCone: 40
 shootType: lightning
 range: 100
 recoil: 6
-powerUse: 6
+powerUse: 600
 requirements: [
     silicon/350
     graphite/350
