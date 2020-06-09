@@ -1,6 +1,6 @@
 name: "Turret Mod"
 displayName: "[red]Turret[green] Mod" //what displays in the mod selection menu
 author: "Dan :D"
-description: "Adds -3- new turrets. Credit to Hiro the Capoo for ice turret sprite"
-version: "7"
+description: "Adds -4- new turrets and lots of other content. Credit to Hiro the Capoo for ice turret and duo+ sprite"
+version: "8"
 minGameVersion: "103"
