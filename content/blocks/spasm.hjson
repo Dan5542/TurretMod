@@ -5,7 +5,7 @@ health: 3000
 size: 2
 targetsground:True
 targetsair:False
-reload: 0.5
+reload: 2
 range: 250
 inaccuracy: 0
 rotatespeed: 3
@@ -14,9 +14,9 @@ shootDuration: 10
 powerUse: 2.5
 shootType: lightning
 requirements: [
-  lead/50
-  graphite/10
-  silicon/50
+  lead/175
+  graphite/200
+  silicon/450  
 ]
 category: turret
 research: lancer
