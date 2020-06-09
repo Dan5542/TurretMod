@@ -9,10 +9,10 @@ reload: 0.1
 range: 250
 inaccuracy: 0
 rotatespeed: 3
-firingMoveFract: 0.1
-shootDuration: 10
+firingMoveFract: 1
+shootDuration: 1
 powerUse: 2.5
-shootType: lightning
+shootType: damageLightning
 requirements: [
   lead/175
   graphite/200
