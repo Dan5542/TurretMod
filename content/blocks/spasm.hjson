@@ -1,6 +1,8 @@
 type: PowerTurret
+name: Spasm
+description: Annhilates enemies with insane dps, but has small range and will break easily.
 size: 2
-health: 260
+health: 50
 category: turret
 shootEffect: lightningShoot
 shootSound: spark
@@ -10,7 +12,7 @@ reload: 4
 shootCone: 40
 shootType: lightning
 range: 50
-recoil: 6
+recoil: 8
 powerUse: 700
 requirements: [
     silicon/500
