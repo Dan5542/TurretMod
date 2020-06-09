@@ -3,4 +3,7 @@ This is a mod that contains lots of different things, but its main focus is turr
 
 ## Features
 
-Mod currently includes 3 turrets, 2 factories, 1 drill and 2 items.
+Mod currently includes 3 turrets, 3 factories, 1 drill and 3 items.
+
+Mod by Dan5542
+Credit to Hiro the Capoo for ice turret sprite
