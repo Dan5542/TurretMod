@@ -1,0 +1,27 @@
+type: ItemTurret
+name: Solo
+description: duo, but worse
+health: 125
+size: 1
+reload: 20
+range: 100
+ammoUseEffect: shellEjectSmall
+inaccuracy: 2
+rotatespeed: 30
+ammo: {
+  copper: {
+    speed: 4
+    damage: 6
+  }
+  graphite: {
+    speed: 4
+    damage: 10
+    ammoMultiplier: 2
+  }
+}
+requirements: [
+  graphite/50
+  copper/300
+]
+category: turret
+research: duo
