@@ -2,7 +2,7 @@ name: Volcanic Wall
 description: An extremely durable, expenisve wall.
 type: Wall
 health: 1500
-size: 2
+size: 1
 requirements: [
   volcanic-alloy/10
 ]
