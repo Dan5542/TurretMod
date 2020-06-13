@@ -1,0 +1,10 @@
+name: Large Volcanic Wall
+description: An extremely durable, expensive wall. Spans multiple tiles
+type: Wall
+health: 6000
+size: 3
+requirements: [
+  volcanic-alloy/40
+]
+category: defense
+research: volcanic-wall
