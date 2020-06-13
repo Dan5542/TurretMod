@@ -20,5 +20,5 @@
     		"block": "blast-drill"
     	}
     ],
-    "resources": ["copper", "lead", "coal", "titanium", "volcanic rock", "thorium"]
+    "resources": ["copper", "lead", "coal", "titanium", "volcanic-rock", "thorium"]
 }
