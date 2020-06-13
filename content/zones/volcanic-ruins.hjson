@@ -1,0 +1,24 @@
+{
+	"loadout": "basicNucleus",
+    "startingItems": [
+    	{"item": "copper", "amount": 200}
+    ],
+    "conditionWave": 30,
+    "configureObjective": {
+            "type": "ZoneWave",
+            "zone": "volcanic-ruins", 
+            "wave": 50
+    },
+    "launchPeriod": 5,
+    "requirements": [
+        {
+            "type": "launched",
+            "zone": "overgrowth"
+        }
+    	{
+    		"type": "Unlock",
+    		"block": "blast-drill"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "titanium", "volcanic rock", "thorium"]
+}
