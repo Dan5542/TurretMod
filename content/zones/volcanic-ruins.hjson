@@ -1,4 +1,5 @@
 {
+        "name": "Volcanic Ruins",
 	"loadout": "basicNucleus",
     "startingItems": [
     	{"item": "copper", "amount": 200}
